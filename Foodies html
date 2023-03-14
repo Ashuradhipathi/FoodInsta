@@ -1,0 +1,80 @@
+<html>
+  <head>
+    <meta charset ="utf-8">
+    <title>Foodies</title>
+    <style>
+      #feed{
+        background-color: rgb(0,80,130);
+        padding: 24px;
+        margin-right:60px;
+        margin-bottom:300px;
+        border-radius:30px;
+      }
+      #body{
+        background-color: rgb(0,120,230);
+      }
+    #menu{
+      background-color: rgb(0,140,200);
+      border-radius:13px;
+      padding: 20px;
+      font-weight: 400;
+      } 
+      .menu-e{
+      background-color: rgb(0,200,170);
+      padding: 8px;
+      margin-left: 16px;
+      font-weight: 600px;
+       border-radius:10px;
+      }
+      #description{
+        margin-top:300px;
+        text-align:center;
+      }
+      .photo{
+        width:400px;
+        height:400px;
+        padding:25px;
+      }
+      .word{
+        color:#000000;
+      }
+      
+    </style>
+  </head>
+  <body id=body>
+    <div id=menu>
+      <span class=menu-e>Index</span>
+      <span class=menu-e>Food</span>
+      <span class=menu-e>About</span>
+    </div>
+    <div >
+      <h1 class=word> Welcome to Foodies<h1>
+        <div id=feed>
+        <h2 class=word>Favorite foods</h2>
+        <ul>
+         <li>
+           <a href="#Biryani" class=word> Biryani</a> 
+          </li>
+           <li>
+           <a href="#Mutton-Juicy-Mandi" class=word> Juicy Mutton Mandi</a>
+          </li>
+              <li>
+          <a href="#Mango-Bar" class=word>Mango Bar</a> 
+          </li>
+          </ul>
+        </div>
+          <div id=description>
+           <img class=photo id=Biryani src="https://images.app.goo.gl/MPxqPGLp51T4qiwm7" />
+           <P>Biryani is very famous in Hyderabd.</p>
+        
+           <img class=photo id=Mutton-Juicy-Mandi src="https://images.app.goo.gl/LhXeEuUhC6x3Up9H8" />
+         <p>Mutton Juicy Mandi provides soup with full of flavor to go with the rice </p>           </li>
+       
+         <img class=photo id=Mango-Bar src="https://images.app.goo.gl/pkCfbLbuFJc2dg22A" /> 
+        <p>Mango Bar has a tiny bit of mango flavor in it </p>
+    
+    </div>
+    </div>
+  </body>
+  </html>  
+    
